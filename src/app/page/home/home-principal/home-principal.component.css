@@ -1,0 +1,40 @@
+.home{
+  position: relative;
+  background-color: F6D9AE;
+}
+
+.background-home, .logo-home{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.sobreposicao{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(246, 217, 174, 0.7), rgba(246, 217, 174, 0.7));
+}
+
+.background-home{
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.logo-home{
+  width: 536px;
+  height: 493px;
+  flex-shrink: 0;
+  margin-top: 80px;
+  margin-right: 512px;
+  margin-bottom: 150px;
+  margin-left: 512px;
+
+  opacity: 0.8;
+}

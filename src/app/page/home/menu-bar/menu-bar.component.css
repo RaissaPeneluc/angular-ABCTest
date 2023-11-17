@@ -1,0 +1,91 @@
+.menu-bar{
+  background-color: #F6D9AE;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-botao-menu{
+  width: 71px;
+  height: 60px;
+  flex-shrink: 0;
+  margin-top: 8px;
+  margin-right: 5px;
+  margin-bottom: 8px;
+  margin-left: 5px;
+}
+
+.nome-menu{
+  width: 322px;
+  height: 45px;
+  flex-shrink: 0;
+  margin-top: 25px;
+  margin-right: 221px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+
+  color: #3B3B3B;
+  font-family: Poppins;
+  font-size: 26.59px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.home-menu{
+  margin-top: 27px;
+  margin-right: 51px;
+  margin-bottom: 27px;
+  margin-left: 0px;
+
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.sobre-menu{
+  width: 51px;
+  height: 23px;
+  flex-shrink: 0;
+  margin-top: 27px;
+  margin-right: 51px;
+  margin-bottom: 27px;
+  margin-left: 0px;
+
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.duvidas-menu{
+  margin-top: 27px;
+  margin-right: 51px;
+  margin-bottom: 27px;
+  margin-left: 0px;
+
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.contato-menu{
+  margin-top: 27px;
+  margin-right: 51px;
+  margin-bottom: 27px;
+  margin-left: 0px;
+
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

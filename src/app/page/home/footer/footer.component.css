@@ -1,0 +1,82 @@
+.footer-content {
+  display: flex;
+  flex-direction: column; /* Altera o layout para coluna */
+  align-items: center;
+  background-color: #F6D9AE;
+  padding: 20px;
+}
+
+.footer-content-top {
+  display: flex;
+  justify-content: space-between; /* Ajusta o alinhamento */
+  width: 100%;
+}
+
+.footer-logo, .footer-links {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 100px; /* Ajusta o tamanho da sua logo conforme necessário */
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin-left: 40px;
+  display: flex;
+}
+
+.footer-links li {
+  margin-right: 20px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #000;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2px;
+}
+
+/* Seção de informações de contato */
+
+.contact-info {
+  margin-left: auto; /* Moverá para o canto direito */
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.contact-info li {
+  margin-bottom: 5px; /* Adiciona espaço entre os itens da lista */
+}
+
+.contact-info img {
+  margin-right: 10px; /* Adiciona espaço entre a imagem e o texto */
+}
+
+.image-tel{
+  width: 25px; /* Ajuste o tamanho dos ícones conforme necessário */
+  margin-left: 3px;
+}
+
+.image-loc{
+  width: 25px;
+  margin-left: 3px;
+}
+
+.image-email{
+  width: 35px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #000;
+}

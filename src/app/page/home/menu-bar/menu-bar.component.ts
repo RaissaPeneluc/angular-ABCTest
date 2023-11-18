@@ -9,7 +9,37 @@ export class MenuBarComponent implements OnInit {
 
   constructor() { }
 
-  clicouNaLogo() {
+  clickNaLogo() {
+    console.log('Botão clicado!');
+    // Adicione a lógica desejada aqui, por exemplo, redirecionar para outra página ou executar alguma ação.
+  }
+
+  clickNoNome() {
+    console.log('Botão clicado!');
+    // Adicione a lógica desejada aqui, por exemplo, redirecionar para outra página ou executar alguma ação.
+  }
+
+  clickNaHome() {
+    console.log('Botão clicado!');
+    // Adicione a lógica desejada aqui, por exemplo, redirecionar para outra página ou executar alguma ação.
+  }
+
+  clickNoSobre() {
+    console.log('Botão clicado!');
+    // Adicione a lógica desejada aqui, por exemplo, redirecionar para outra página ou executar alguma ação.
+  }
+
+  clickNaMetodologia() {
+    console.log('Botão clicado!');
+    // Adicione a lógica desejada aqui, por exemplo, redirecionar para outra página ou executar alguma ação.
+  }
+
+  clickNoContato() {
+    console.log('Botão clicado!');
+    // Adicione a lógica desejada aqui, por exemplo, redirecionar para outra página ou executar alguma ação.
+  }
+
+  clickNoStart() {
     console.log('Botão clicado!');
     // Adicione a lógica desejada aqui, por exemplo, redirecionar para outra página ou executar alguma ação.
   }

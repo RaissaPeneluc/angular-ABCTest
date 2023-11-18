@@ -36,6 +36,7 @@
   margin-right: 51px;
   margin-bottom: 27px;
   margin-left: 0px;
+  cursor: pointer;
 
   color: #000;
   font-family: Poppins;
@@ -53,6 +54,7 @@
   margin-right: 51px;
   margin-bottom: 27px;
   margin-left: 0px;
+  cursor: pointer;
 
   color: #000;
   font-family: Poppins;
@@ -67,6 +69,7 @@
   margin-right: 51px;
   margin-bottom: 27px;
   margin-left: 0px;
+  cursor: pointer;
 
   color: #000;
   font-family: Poppins;
@@ -78,9 +81,10 @@
 
 .contato-menu{
   margin-top: 35px;
-  margin-right: 435px;
+  margin-right: 410px;
   margin-bottom: 27px;
   margin-left: 0px;
+  cursor: pointer;
 
   color: #000;
   font-family: Poppins;

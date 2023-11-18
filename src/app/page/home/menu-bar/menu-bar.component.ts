@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-menu-bar',
@@ -7,42 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuBarComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
-  clickNaLogo() {
-    console.log('Botão clicado!');
-    // Adicione a lógica desejada aqui, por exemplo, redirecionar para outra página ou executar alguma ação.
-  }
 
-  clickNoNome() {
-    console.log('Botão clicado!');
-    // Adicione a lógica desejada aqui, por exemplo, redirecionar para outra página ou executar alguma ação.
-  }
-
-  clickNaHome() {
-    console.log('Botão clicado!');
-    // Adicione a lógica desejada aqui, por exemplo, redirecionar para outra página ou executar alguma ação.
-  }
-
-  clickNoSobre() {
-    console.log('Botão clicado!');
-    // Adicione a lógica desejada aqui, por exemplo, redirecionar para outra página ou executar alguma ação.
-  }
-
-  clickNaMetodologia() {
-    console.log('Botão clicado!');
-    // Adicione a lógica desejada aqui, por exemplo, redirecionar para outra página ou executar alguma ação.
-  }
-
-  clickNoContato() {
-    console.log('Botão clicado!');
-    // Adicione a lógica desejada aqui, por exemplo, redirecionar para outra página ou executar alguma ação.
-  }
-
-  clickNoStart() {
-    console.log('Botão clicado!');
-    // Adicione a lógica desejada aqui, por exemplo, redirecionar para outra página ou executar alguma ação.
-  }
 
   ngOnInit(): void {
   }

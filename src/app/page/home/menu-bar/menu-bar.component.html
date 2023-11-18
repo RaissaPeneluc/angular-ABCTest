@@ -1,13 +1,15 @@
 <div>
   <!-- Criação da Menu Bar -->
   <div class="menu-bar">
-    <img (click)="clickNaLogo()" src="assets/images/Logo de IA com fundo transparente.png" alt="Botão Logo" class="logo-button-menu">
-    <h3 (click)="clickNoNome()" class="nome-menu"> ABCTest </h3>
-    <p (click)="clickNaHome()"class ="home-menu"> Home </p>
-    <p (click)="clickNoSobre()"class ="sobre-menu"> Sobre </p>
-    <p (click)="clickNaMetodologia()"class ="metodologia-menu"> Metodologia </p>
-    <p (click)="clickNoContato()"class ="contato-menu"> Contato </p>
-    <button (click)="clickNoStart()" class="button-start"> Começe Agora </button>
+    <a href="#">
+      <img src="assets/images/Logo de IA com fundo transparente.png" alt="Botão Logo" class="logo-button-menu">
+    </a>
+    <h3 class="nome-menu"> <a href="#home">ABCTest</a></h3>
+    <p class ="home-menu"><a href="#home">Home</a></p>
+    <p class ="sobre-menu"> <a href="#sobre-home">Sobre</a></p>
+    <p class ="metodologia-menu"> <a href="#">Metodologia </a></p>
+    <p class ="contato-menu"> <a href="#footer-content">Contato </a></p>
+    <button class="button-start"> Começe Agora </button>
   </div>
 
 </div>

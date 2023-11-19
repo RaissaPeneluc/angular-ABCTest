@@ -19,7 +19,7 @@
   height: 45px;
   flex-shrink: 0;
   margin-top: 30px;
-  margin-right: 175px;
+  margin-right: 220px;
   margin-bottom: 10px;
   margin-left: 0px;
 
@@ -66,22 +66,7 @@
 
 .metodologia-menu{
   margin-top: 35px;
-  margin-right: 51px;
-  margin-bottom: 27px;
-  margin-left: 0px;
-  cursor: pointer;
-
-  color: #000;
-  font-family: Poppins;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-
-.contato-menu{
-  margin-top: 35px;
-  margin-right: 410px;
+  margin-right: 480px;
   margin-bottom: 27px;
   margin-left: 0px;
   cursor: pointer;

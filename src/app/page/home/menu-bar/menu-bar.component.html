@@ -6,10 +6,12 @@
     </a>
     <h3 class="nome-menu"> <a href="#home">ABCTest</a></h3>
     <p class ="home-menu"><a href="#home">Home</a></p>
-    <p class ="sobre-menu"> <a href="#sobre-home">Sobre</a></p>
+    <p class ="sobre-menu"> <a [routerLink]="['/sobre']" fragment="sobre-home">Sobre</a></p>
     <p class ="metodologia-menu"> <a href="#">Metodologia </a></p>
-    <p class ="contato-menu"> <a href="#footer-content">Contato </a></p>
-    <button class="button-start"> Começe Agora </button>
+    <button routerLink="/quiz" class="button-start"> Começe Agora </button>
+
   </div>
 
 </div>
+
+<router-outlet></router-outlet>

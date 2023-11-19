@@ -17,6 +17,9 @@ export class QuizComponent implements OnInit {
   }
 
   questions = [
+
+     /* Questões de Língua Portuguesa */
+
     {
       index: 1,
       question: 'Qual é a capital do Brasil?',
@@ -34,6 +37,27 @@ export class QuizComponent implements OnInit {
       question: 'Quem escreveu "Dom Quixote"?',
       options: ['Machado de Assis', 'Cervantes', 'Shakespeare', 'Homer'],
       correctAnswer: 'Cervantes',
+    },
+
+    /* Questões de Matemática */
+
+    {
+      index: 4,
+      question: 'Quanto é 2 + 2?',
+      options: ['3', '4', '5', '6'],
+      correctAnswer: '4',
+    },
+    {
+      index: 5,
+      question: 'Qual é a raiz quadrada de 25?',
+      options: ['3', '4', '5', '6'],
+      correctAnswer: '5',
+    },
+    {
+      index: 6,
+      question: 'Quanto é 3 x 8?',
+      options: ['18', '21', '24', '27'],
+      correctAnswer: '24',
     },
   ];
 

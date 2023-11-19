@@ -10,12 +10,13 @@
     <app-alternatives
       [options]="question.options"
       [alternativeIndex]="i"
+      [quizSubmitted]="quizSubmitted"
       (selectOption)="handleOptionSelected($event)"
     ></app-alternatives>
   </div>
 
   <!-- Botão para enviar o quiz para calcular os resultados -->
-  <button (click)="submitQuiz()">Submit Quiz</button>
+  <button (click)="submitQuiz()" [disabled]="quizSubmitted">Submit Quiz</button>
 
   <!-- Mostra os resultados apenas se o quiz foi enviado -->
   <div *ngIf="quizSubmitted && userAnswers.length > 0">

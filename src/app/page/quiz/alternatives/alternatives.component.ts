@@ -17,7 +17,16 @@ export class AlternativesComponent implements OnInit {
 
   @Input() options: string[] = []; // Recebe as opções como entrada do componente pai
   @Input() alternativeIndex: number = 0; // Recebe o índice da pergunta como entrada do componente pai
+  @Input() quizSubmitted: boolean = false;  // Recebe o estado do quiz como entrada
   @Output() selectOption = new EventEmitter(); // Emite evento quando uma opção é selecionada
   selectedOption: string = ''; // Mantém o controle da opção selecionada
 
+  /* Verifica se o quiz foi submetido antes de permitir a mudança de resposta */
+
+  handleOptionChange(event: any): void {
+    if (!this.quizSubmitted) {
+      const { alternativeIndex, option } = event;
+      this.selectOption.emit({ questionIndex: alternativeIndex, option: option });
+    }
+  }
 }

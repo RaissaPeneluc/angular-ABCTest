@@ -5,6 +5,8 @@
     <!-- [checked] é utilizada para garantir que a opção selecionada permaneça marcada. -->
     <!-- Quando opção é selecionada (selectOption), um evento é emitido para informar ao componente pai sobre a escolha feita.-->
     <!-- [name] adiciona a propriedade name com base no índice da pergunta, permitindo selecionar apenas uma alternativa por pergunta -->
+    <!-- [disabled] adiciona a propriedade disabled com base no estado do quiz -->
+
 
     <li *ngFor="let option of options; let i = index">
       <label>
@@ -14,6 +16,7 @@
           [value]="option"
           [checked]="selectedOption === option"
           (change)="selectOption.emit({ alternativeIndex: alternativeIndex, option: option })"
+          [disabled]="quizSubmitted"
         />
         {{ option }}
       </label>

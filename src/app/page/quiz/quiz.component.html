@@ -9,7 +9,11 @@
       <div *ngIf="question.index <= 3">
 
         <!-- Renderiza o componente 'QuestionComponent' para exibir a pergunta -->
-        <app-question [question]="question.question" [questionIndex]="question.index"></app-question>
+        <app-question
+        [question]="question.question"
+        [questionIndex]="question.index"
+        [imagePath]="question.imagePath"
+        ></app-question>
 
         <!-- Renderiza o componente 'AlternativesComponent' para exibir as alternativas de resposta e manipular eventos de seleção -->
         <app-alternatives
@@ -27,15 +31,21 @@
     <h2>Simulado de Matemática</h2>
     <div *ngFor="let question of questions; let i = index">
       <div *ngIf="question.index > 3">
-      <!-- Renderiza o componente 'QuestionComponent' para exibir a pergunta e o índice -->
-      <app-question [question]="question.question" [questionIndex]="question.index"></app-question>
-      <!-- Renderiza o componente 'OptionsComponent' para exibir as opções -->
-      <app-alternatives
+
+        <!-- Renderiza o componente 'QuestionComponent' para exibir a pergunta e o índice -->
+        <app-question
+        [question]="question.question"
+        [questionIndex]="question.index"
+        [imagePath]="question.imagePath"
+        ></app-question>
+
+        <!-- Renderiza o componente 'OptionsComponent' para exibir as opções -->
+        <app-alternatives
         [options]="question.options"
         [alternativeIndex]="i"
         [quizSubmitted]="quizSubmitted"
         (selectOption)="handleOptionSelected($event)"
-      ></app-alternatives>
+        ></app-alternatives>
       </div>
     </div>
   </div>
@@ -54,8 +64,6 @@
       </li>
     </ul>
   </div>
-
-  <p>quiz works!</p>
 </div>
 
 

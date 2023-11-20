@@ -17,5 +17,6 @@ export class QuestionComponent implements OnInit {
 
   @Input() question: string = ''; // Recebe a pergunta como entrada do componente pai
   @Input() questionIndex: number = 0; // Recebe índice da pergunta como entrada do componente pai
+  @Input() imagePath: string | undefined = ''; // Nova entrada para a imagem
 
 }

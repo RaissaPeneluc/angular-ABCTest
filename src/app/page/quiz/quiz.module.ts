@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
 
 import { AllHomeComponent } from '../home/all-home/all-home.component';
+
 import { QuizComponent } from './quiz.component';
 import { QuestionComponent } from './question/question.component';
 import { ResultComponent } from './result/result.component';

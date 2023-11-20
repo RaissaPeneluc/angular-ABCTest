@@ -79,18 +79,19 @@
 }
 
 .button-start{
-  width: 125px;
-  height: 45px;
+  width: 150px;
+  height: 50px;
   flex-shrink: 0;
   margin-top: 530px;
   margin-right: 5px;
   margin-bottom: 8px;
   margin-left: 675px;
   border-radius: 50px;
+  cursor: pointer;
 
   color: #333;
   font-family: Poppins;
-  font-size: 13.934px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;

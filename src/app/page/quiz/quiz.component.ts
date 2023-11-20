@@ -256,13 +256,13 @@ export class QuizComponent implements OnInit {
     },
     {
       index: 22,
-      question: 'A professora do 3º ano escreveu na lousa um exercício, ela pediu para os alunos descobrirem qual é o número que está na lousa. Selecione a alternativa que mostra o número que a professora escreveu:',
-      options: ['258',
-      '582',
-      '825',
-      '852'
+      question: 'Observe o quadro, a professora de Camila passou um exercício e pediu que ela o resolvesse. Selecione a alternativa que mostra o resultado da conta de Camila:',
+      options: ['204',
+      '356',
+      '560',
+      '660'
       ],
-      correctAnswer: '852',
+      correctAnswer: '560',
       imagePath: '/assets/images/Questão 22.png'
     },
     {

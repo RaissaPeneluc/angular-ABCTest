@@ -1,5 +1,5 @@
 <div>
-  <ul>
+  <ul class="column-list-alternatives">
 
     <!-- *ngFor foi usado para iterar sobre as opções e criar uma entrada de radio button para cada uma. -->
     <!-- [checked] é utilizada para garantir que a opção selecionada permaneça marcada. -->
@@ -8,9 +8,9 @@
     <!-- [disabled] adiciona a propriedade disabled com base no estado do quiz -->
 
 
-    <li *ngFor="let option of options; let i = index">
-      <label>
-        <input
+    <li class="list-alternatives" *ngFor="let option of options; let i = index">
+      <label class="label-alternatives">
+        <input class="text-alternatives"
           type="radio"
           [name]="'question_' + alternativeIndex"
           [value]="option"

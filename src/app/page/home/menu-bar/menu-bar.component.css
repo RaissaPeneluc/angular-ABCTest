@@ -2,6 +2,8 @@
   background-color: #F6D9AE;
   display: flex;
   flex-direction: row;
+
+  border: 1px solid #7c461c;
 }
 
 .logo-button-menu{
@@ -18,13 +20,12 @@
   width: 322px;
   height: 45px;
   flex-shrink: 0;
-  margin-top: 30px;
+  margin-top: 21px;
   margin-right: 220px;
   margin-bottom: 10px;
   margin-left: 0px;
 
-  color: #3B3B3B;
-  font-family: Poppins;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 26.59px;
   font-style: normal;
   font-weight: 400;
@@ -88,10 +89,11 @@
   margin-bottom: 8px;
   margin-left: 5px;
   border-radius: 50px;
+  cursor: pointer;
 
   color: #333;
   font-family: Poppins;
-  font-size: 13.934px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;

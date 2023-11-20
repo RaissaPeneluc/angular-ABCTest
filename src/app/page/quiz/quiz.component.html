@@ -1,12 +1,20 @@
-<div>
+<div class="quiz">
+  <div class="menu-quiz">
+    <a href="#">
+      <img class="logo-menu-quiz" src="/assets/images/Logo da Home.png">
+    </a>
 
-  <div>
+    <h3 class="name-menu-quiz"> <a href="#" > ABCTest </a> </h3>
+    <h1 class="title-menu-quiz"> Simulados do ANA para Teste de Analfabetismo </h1>
+  </div>
+
+  <div class="portuguese-quiz">
     <!-- Simulado de Língua Portuguesa -->
-    <h2>Simulado de Língua Portuguesa</h2>
+    <h2 class="title-portuguese-quiz"> Caderno de Língua Portuguesa </h2>
 
     <!-- Essa diretiva é usada para iterar sobre as perguntas e opções -->
-    <div *ngFor="let question of questions; let i = index">
-      <div *ngIf="question.index <= 3">
+    <div class="content-portuguese-quiz" *ngFor="let question of questions; let i = index">
+      <div *ngIf="question.index <= 17">
 
         <!-- Renderiza o componente 'QuestionComponent' para exibir a pergunta -->
         <app-question
@@ -26,11 +34,12 @@
     </div>
   </div>
 
-  <div>
+  <div class="math-quiz">
     <!-- Simulado de Matemática -->
-    <h2>Simulado de Matemática</h2>
-    <div *ngFor="let question of questions; let i = index">
-      <div *ngIf="question.index > 3">
+    <h2 class="title-math-quiz"> Caderno de Matemática </h2>
+
+    <div class="content-math-quiz" *ngFor="let question of questions; let i = index">
+      <div *ngIf="question.index > 17">
 
         <!-- Renderiza o componente 'QuestionComponent' para exibir a pergunta e o índice -->
         <app-question
@@ -51,19 +60,25 @@
   </div>
 
   <!-- Botão para enviar o quiz para calcular os resultados -->
-  <button (click)="submitQuiz()" [disabled]="quizSubmitted">Submit Quiz</button>
+  <button class="button-quiz" (click)="submitQuiz()" [disabled]="quizSubmitted"> Enviar Quiz </button>
 
   <!-- Mostra os resultados apenas se o quiz foi enviado -->
-  <div *ngIf="quizSubmitted && userAnswers.length > 0">
-    <h3>Resultados:</h3>
-    <p>Questões corretas: {{ correctAnswersCount }} / {{ questions.length }}</p>
-    <ul>
-      <li *ngFor="let question of questions; let i = index">
-        Questão {{ question.index }} - Resposta correta: {{ question.correctAnswer }} |
-        Sua resposta: {{ userAnswers[i] }}
-      </li>
-    </ul>
+  <div class="result-quiz" *ngIf="quizSubmitted && userAnswers.length > 0">
+    <div class="content-result-quiz">
+      <h3 class="title-result-quiz"> Resultados: </h3>
+      <p class="description-result-quiz"> Você acertou {{ correctAnswersCount }} de {{ questions.length }} questões! </p>
+
+      <!-- Adiciona condição para exibir mensagem específica -->
+      <ng-container *ngIf="correctAnswersCount >= 17">
+        <!-- Se acertou 17 ou mais questões -->
+        <p class="check-result-quiz">Parabéns! Você é um alfabeto funcional!</p>
+      </ng-container>
+
+      <ng-container *ngIf="correctAnswersCount < 17">
+        <!-- Se acertou menos de 17 questões -->
+        <p class="fail-result-quiz">Você não atingiu a pontuação para ser considerado um alfabeto funcional <br>
+          Continue estudando e tentando, que você consegue! :)</p>
+      </ng-container>
+    </div>
   </div>
 </div>
-
-

@@ -1,4 +1,4 @@
-<img *ngIf="imagePath" [src]="imagePath" alt="Imagem da pergunta" />
-<h3>{{ questionIndex }}. {{ question }}</h3>
-
-
+<div class="question">
+  <p class="title-question"> Questão {{ questionIndex }}. {{ question }}</p>
+  <img class="image-question" *ngIf="imagePath" [src]="imagePath" alt="Imagem da pergunta" />
+</div>

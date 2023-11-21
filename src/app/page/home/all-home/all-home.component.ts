@@ -1,5 +1,6 @@
 import { Component, OnInit, Inject } from '@angular/core';
 
+
 @Component({
   selector: 'app-all-home',
   templateUrl: './all-home.component.html',

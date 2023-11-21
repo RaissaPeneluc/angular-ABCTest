@@ -1,0 +1,143 @@
+.metodologia-home {
+  position: relative;
+  width: auto;
+  height: 720px;
+
+  background-color: #F6D9AE;
+}
+
+.background-metodologia-home,.metodologia-card-home1,.metodologia-title-home1,.metodologia-description-home1,
+.metodologia-card-home2, .metodologia-title-home2, .metodologia-description-home2,
+.metodologia-card-home3, .metodologia-title-home3, .metodologia-description-home3,
+.metodologia-card-home4, .metodologia-title-home4, .metodologia-description-home4{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.sobreposicao {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1400px;
+  overflow: hidden;
+
+  background: linear-gradient(rgba(246, 217, 174, 0.7), rgba(246, 217, 174, 0.7));
+}
+
+.background-metodologia-home {
+  width: 100%;
+  height: 1400px;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+  margin-top: 0px;
+}
+
+.metodologia-card-home1 {
+  width: 550px;
+  height: 525px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  margin-top: 100px;
+  margin-left: 150px;
+  margin-bottom: 100px;
+
+  background-color: #F6D9AE;
+  box-shadow: 5px 6px 53px -6px rgba(124,70,28,0.65);
+  -webkit-box-shadow: 5px 6px 53px -6px rgba(124,70,28,0.65);
+  -moz-box-shadow: 5px 6px 53px -6px rgba(124,70,28,0.65);
+}
+
+.metodologia-card-home2 {
+  width: 550px;
+  height: 525px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  margin-top: 100px;
+  margin-left: 850px;
+  margin-bottom: 100px;
+
+  background-color: #F6D9AE;
+  box-shadow: 5px 6px 53px -6px rgba(124,70,28,0.65);
+  -webkit-box-shadow: 5px 6px 53px -6px rgba(124,70,28,0.65);
+  -moz-box-shadow: 5px 6px 53px -6px rgba(124,70,28,0.65);
+}
+
+.metodologia-card-home3 {
+  width: 550px;
+  height: 525px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  margin-top: 700px;
+  margin-left: 150px;
+  margin-bottom: 100px;
+
+  background-color: #F6D9AE;
+  box-shadow: 5px 6px 53px -6px rgba(124,70,28,0.65);
+  -webkit-box-shadow: 5px 6px 53px -6px rgba(124,70,28,0.65);
+  -moz-box-shadow: 5px 6px 53px -6px rgba(124,70,28,0.65);
+}
+
+.metodologia-card-home4 {
+  width: 550px;
+  height: 525px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  margin-top: 700px;
+  margin-left: 850px;
+  margin-bottom: 100px;
+
+  background-color: #F6D9AE;
+  box-shadow: 5px 6px 53px -6px rgba(124,70,28,0.65);
+  -webkit-box-shadow: 5px 6px 53px -6px rgba(124,70,28,0.65);
+  -moz-box-shadow: 5px 6px 53px -6px rgba(124,70,28,0.65);
+}
+
+.metodologia-title-home1,.metodologia-description-home1,
+.metodologia-title-home2, .metodologia-description-home2,
+.metodologia-title-home3, .metodologia-description-home3,
+.metodologia-title-home4, .metodologia-description-home4{
+  width: 500px;
+  flex-shrink: 0;
+  padding-top: 40px;
+  padding-left: 30px;
+}
+
+.metodologia-title-home1,
+.metodologia-title-home2,
+.metodologia-title-home3,
+.metodologia-title-home4{
+  height: auto;
+  margin-top: 10px;
+  margin-right: 300px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+
+  color: #333;
+  font-family: Roboto Serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
+}
+
+.metodologia-description-home1,
+.metodologia-description-home2,
+.metodologia-description-home3,
+.metodologia-description-home4{
+  width: 485px;
+  margin-top: 80px;
+  margin-right: 100px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+
+  color: #7c461c;
+  text-align: justify;
+  font-family: Roboto serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

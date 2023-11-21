@@ -34,7 +34,22 @@
 
 .home-menu{
   margin-top: 35px;
-  margin-right: 51px;
+  margin-right: 70px;
+  margin-bottom: 27px;
+  margin-left: 0px;
+  cursor: pointer;
+
+  color: #000;
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.metodologia-menu{
+  margin-top: 35px;
+  margin-right: 70px;
   margin-bottom: 27px;
   margin-left: 0px;
   cursor: pointer;
@@ -52,7 +67,7 @@
   height: 23px;
   flex-shrink: 0;
   margin-top: 35px;
-  margin-right: 51px;
+  margin-right: 430px;
   margin-bottom: 27px;
   margin-left: 0px;
   cursor: pointer;
@@ -65,20 +80,6 @@
   line-height: normal;
 }
 
-.metodologia-menu{
-  margin-top: 35px;
-  margin-right: 480px;
-  margin-bottom: 27px;
-  margin-left: 0px;
-  cursor: pointer;
-
-  color: #000;
-  font-family: Poppins;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
 
 .button-start{
   width: 125px;
@@ -100,5 +101,4 @@
   border: 0.5px solid rgba(0, 0, 0, 0.35);
   background: linear-gradient(95deg, #F4BC0A 0%, #CD7F0A 100%);
   box-shadow: 0px 10.45024px 23.22276px -6.96683px #FBE18F;
-
 }

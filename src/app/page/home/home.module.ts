@@ -8,14 +8,16 @@ import { HomePrincipalComponent } from './home-principal/home-principal.componen
 import { SobreHomeComponent } from './sobre-home/sobre-home.component';
 import { FooterComponent } from './footer/footer.component';
 import { AllHomeComponent } from './all-home/all-home.component';
+import { MetodologiaComponent } from './metodologia/metodologia.component';
 
 import { QuizComponent } from '../quiz/quiz.component';
+
 
 const routes: Routes = [
   { path: 'home', component: AllHomeComponent },
   { path: 'quiz', component: QuizComponent },
   { path: 'sobre', component: SobreHomeComponent },
-  { path: 'metodologia', component: FooterComponent },
+  { path: 'metodologia', component: MetodologiaComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' }
 ];
 
@@ -26,7 +28,8 @@ const routes: Routes = [
     HomePrincipalComponent,
     SobreHomeComponent,
     FooterComponent,
-    AllHomeComponent
+    AllHomeComponent,
+    MetodologiaComponent
   ],
   imports: [
     CommonModule,
@@ -39,6 +42,7 @@ const routes: Routes = [
     SobreHomeComponent,
     FooterComponent,
     AllHomeComponent,
+    MetodologiaComponent,
     RouterModule
   ]
 })

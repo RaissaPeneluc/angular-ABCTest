@@ -421,6 +421,10 @@ export class QuizComponent implements OnInit {
 
   submitQuiz(): void {
 
+
+    /* Verifica se todas as perguntas têm uma resposta antes de enviar o quiz. */
+    if (this.userAnswers.every((answer) => answer !== null)) {
+
     /* Calcula o número de respostas corretas */
     this.correctAnswersCount = this.userAnswers.reduce(
       (count, userAnswer, index) =>
@@ -430,6 +434,8 @@ export class QuizComponent implements OnInit {
 
     /* Atualiza a flag para mostrar os resultados */
     this.quizSubmitted = true;
+    } else {
+    alert('Por favor, responda todas as perguntas antes de enviar o quiz.');
+    }
   }
-
 }
